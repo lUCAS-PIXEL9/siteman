@@ -1,0 +1,48 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #90ff9f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Parágrafo com o contador */
+p {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* Estilo do número de visitas */
+#contador-visitas {
+    font-weight: bold;
+      height: 100vh; /* Ocupa toda a altura da tela */
+   text-decoration-color: linear-gradient(to right, #90ff9f, #52ff60); font-size: 22px;
+}
